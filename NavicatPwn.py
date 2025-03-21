@@ -173,10 +173,11 @@ def save_to_json(data, filename="navicat_connections.json"):
     print(f"[+] 已导出解密后的连接信息到 {filename}")
 
 def get_parser():
-    parser = argparse.ArgumentParser(usage='python3 NavicatPwn.py',description='NavicatPwn: 针对Navicat的后渗透利用框架',)
+    parser = argparse.ArgumentParser(usage='python3 NavicatPwn.py',description='NavicatPwn: 针对Navicat的后渗透框架',)
     p = parser.add_argument_group('SpringBoot-Scan 的参数')
     p.add_argument("-f", "--file", type=str, help="对导出的.ncx文件进行解密")
     p.add_argument("-r", "--reg", action="store_true", help="读取系统注册表获取保存的Navicat连接")
+    p.add_argument("-p", "--passin", type=str, help="手动解密Navicat保存的密码")
     args = parser.parse_args()
     return args
 
@@ -202,6 +203,16 @@ def running(args):
             save_to_json(connections)
         else:
             print("[-] 未找到任何包含密码的 Navicat 连接")
+    if args.passin:
+        version = int(input("\n[.] 请输入你要解密的版本（11/12）: "))
+        if version == "":
+            version = 12
+        try:
+            decryptor = NavicatPasswordDecryptor(version=11)
+            passout = decryptor.decrypt(args.passin)  # 进行解密
+            print(f"[+] 解密成功，密码为 {passout}")
+        except Exception as e:
+            print(f"[-] 解密出现错误，报错内容为 {e}")
     else:
         sys.exit()
 
