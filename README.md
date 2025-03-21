@@ -91,6 +91,14 @@ C:\Users\你的用户名\AppData\Roaming\PremiumSoft\Navicat\Navicat Premium\nav
 python3 NavicatPwn.py -p 15057D7BA390
 ```
 
+后续如果有批量解密的需求，也可以找我看看哈哈
+
+### 4.4 Release
+
+已经在Release上传打包好的exe，查杀也不是很敏感，师傅们可以放心用：[https://github.com/AabyssZG/NavicatPwn/releases](https://github.com/AabyssZG/NavicatPwn/releases)
+
+![VirusTotal-1.png](./img/VirusTotal-1.png)
+
 **如果想要修改和使用本项目，请自行查看代码并保证遵守免责声明！**
 
 ## 🖐 五、免责声明
