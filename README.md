@@ -12,7 +12,7 @@
 
 * [x] 读取系统注册表，自动从注册表提取并解密 Navicat Premium 保存的数据库账密
 * [x] 读取 Navicat Premium 导出的连接 `.ncx` 文件，自动解密里面保存的数据库账号密码
-* [ ] 解密指定的 Navicat Premium 保存的密码，支持Navicat版本V11和Navicat版本V12后的解密
+* [x] 解密指定的 Navicat Premium 保存的密码，支持Navicat版本V11和Navicat版本V12后的解密
 
 ## 🚨 三、安装Python依赖库
 
