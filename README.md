@@ -99,6 +99,8 @@ python3 NavicatPwn.py -p 15057D7BA390
 
 ![VirusTotal-1.png](./img/VirusTotal-1.png)
 
+![VirusTotal-2.png](./img/VirusTotal-2.png)
+
 **如果想要修改和使用本项目，请自行查看代码并保证遵守免责声明！**
 
 ## 🖐 五、免责声明
