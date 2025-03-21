@@ -2,6 +2,8 @@
 
 ## ✈️ 一、工具概述
 
+内网渗透实战场景下，任何可以被利用的基础设施都要关注到，才能在多维度对内网进行“降维打击”，获取 Navicat Premium 保存的数据库账密也是关键的一步
+
 [Navicat Premium](https://www.navicat.com)是运维人员非常喜欢用的数据库管理工具之一，能够连接查看内外网的各种主流数据库（MySQL/PostgreSQL/Oracle/SQLite/SQL Server/MongoDB等等）
 
 ![Navicat Premium](./img/Navicat.png)
